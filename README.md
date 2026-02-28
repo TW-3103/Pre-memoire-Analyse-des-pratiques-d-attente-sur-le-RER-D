@@ -1,6 +1,16 @@
 # Pré-mémoire (L3 Sociologie) – Analyse des pratiques d’attente et de la pression temporelle sur le RER D
 
-Projet d’analyse de données explorant les comportements d’attente et la perception de la pression temporelle sur la ligne RER D (Île-de-France).
+Projet réalisé dans le cadre d’un pré-mémoire de L3 Sociologie (Université d’Évry Paris-Saclay, 2025–2026).
+
+## Titre
+
+RER D’attente - Quand les pratiques reflètent la société accélérée
+
+## Problématique
+
+En quoi les comportements et les pratiques des usagers des transports en commun durant l’attente illustrent-ils l’accélération sociale et ses conséquences dans la société contemporaine ? Étude de cas sur le RER D.
+
+---
 
 ## Présentation du projet
 
@@ -9,15 +19,53 @@ L’objectif est d’analyser dans quelle mesure la fréquentation en heures de 
 
 ## Méthodologie
 
-- Données collectées via Google Forms (questionnaire anonyme)
-- Données stockées et interrogées avec Google BigQuery
-- Utilisation de SQL pour le nettoyage, la transformation et l’agrégation
-- Visualisations produites à partir des résultats agrégés
+Approche mixte :
+
+### Phase qualitative
+- Observation ethnographique exploratoire
+- Grille d’observation structurée
+- Analyse des micro-comportements en situation d’attente
+- entretiens semi-directives
+
+### Phase quantitative (exploratoire)
+- Questionnaire anonyme (Google Forms)
+- Données traitées avec Google BigQuery
+- Requêtes SQL pour agrégation et analyse
+- Visualisations basées sur données agrégées
+
+---
 
 ## Résultats préliminaires (25 réponses)
+
+### Partie qualitative (observations et entretiens)
+
+- Usage massif du smartphone comme gestion active de l’attente
+- Isolement spatial et régulation implicite des interactions
+- Variations comportementales selon l’affluence et la génération
+- Corrélation exploratoire entre heure de pointe et pression temporelle perçue
+
+### Partie quantitative (questionnaire)
 
 - La majorité des déclarations de pression temporelle concerne les usagers voyageant en heures de pointe.
 - Les résultats préliminaires suggèrent une perception plus élevée de la pression liée au temps en période de forte affluence.
 - Cette tendance est cohérente avec l’hypothèse d’une accélération temporelle perçue dans les contextes de mobilité dense.
 
 ⚠️ Les résultats présentés sont exploratoires et reposent sur un échantillon de 25 répondants.
+
+---
+
+## Structure du projet
+
+- `/data` : données brutes anonymisées  
+- `/sql` : requêtes d’analyse  
+- `/visualizations` : graphiques générés  
+- `README.md` : présentation du projet  
+
+---
+
+## Perspectives
+
+- Extension du questionnaire
+- Analyse statistique plus robuste
+- Intégration d’un modèle explicatif
+- Comparaison inter-tranches horaires
