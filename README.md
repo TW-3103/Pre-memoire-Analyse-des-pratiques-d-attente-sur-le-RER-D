@@ -1,4 +1,4 @@
-# rer-d-attente-data-analysis
+# Pré-mémoire (L3 Sociologie) – Analyse des pratiques d’attente et de la pression temporelle sur le RER D
 
 Projet d’analyse de données explorant les comportements d’attente et la perception de la pression temporelle sur la ligne RER D (Île-de-France).
 
