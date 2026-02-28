@@ -42,7 +42,7 @@ Approche mixte :
 - Usage massif du smartphone comme gestion active de l’attente
 - Isolement spatial et régulation implicite des interactions
 - Variations comportementales selon l’affluence et la génération
-- Corrélation exploratoire entre heure de pointe et pression temporelle perçue
+- Association exploratoire observée entre heure de pointe et pression temporelle perçue
 
 ### Partie quantitative (questionnaire)
 
@@ -56,9 +56,9 @@ Approche mixte :
 
 ## Structure du projet
 
-- `/data` : données brutes anonymisées  
-- `/sql` : requêtes d’analyse  
-- `/visualizations` : graphiques générés  
+/data → données brutes anonymisées (questionnaire)
+/sql → requêtes d’analyse et transformations
+/visualizations → graphiques issus des agrégations
 - `README.md` : présentation du projet  
 
 ---
