@@ -1,24 +1,32 @@
--- ===============================
--- 25 responses
--- Analyse 1: Heure de pointe vs Pression
--- ===============================
+-- ============================================
+-- ANALYSE 1 : Relation entre heure de pointe et pression temporelle
+-- Objectif :
+-- - Créer une variable binaire (Pointe / Hors pointe)
+-- - Construire un tableau croisé avec la variable "pression"
+-- - Compter le nombre de réponses par catégorie
+-- ============================================
 
-WITH heure_de_pointe_cte AS (
+WITH base AS (
     SELECT
-        Quelles_sont_les_tranches_horaires_dans_lesquelles_vous_prenez_le_RER_D AS horaire,
         CASE
             WHEN Quelles_sont_les_tranches_horaires_dans_lesquelles_vous_prenez_le_RER_D LIKE '%heures de pointes%'
                 THEN 'Pointe'
             ELSE 'Hors pointe'
         END AS heure_de_pointe,
-        Vous_sentez_vous_press_par_le_temps_lorsque_vous_devez_prendre_les_transports AS pression
+
+        CASE
+            WHEN Vous_sentez_vous_press_par_le_temps_lorsque_vous_devez_prendre_les_transports IN ('Oui', 'Parfois')
+                THEN 'Pression'
+            ELSE 'Pas pression'
+        END AS pression_binaire
+
     FROM `projet-prememoire-rerd.prememoire_rerd.Reponses_RERD_GSHEET`
 )
 
 SELECT
     heure_de_pointe,
-    pression,
+    pression_binaire,
     COUNT(*) AS nb_reponses
-FROM heure_de_pointe_cte
-GROUP BY heure_de_pointe, pression
-ORDER BY heure_de_pointe, pression;
+FROM base
+GROUP BY heure_de_pointe, pression_binaire
+ORDER BY heure_de_pointe, pression_binaire;
