@@ -1,4 +1,4 @@
-# Analyse des pratiques d’attente dans le RER D
+# RER D’attente - Quand les pratiques reflètent la société accéléré   
 
 Projet réalisé dans le cadre d’un pré-mémoire de L3 sociologie  
 Université d’Évry Paris-Saclay (2025–2026)
