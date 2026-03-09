@@ -30,12 +30,12 @@ Les données ont ensuite été traitées avec SQL (Google BigQuery) afin d’exp
 
 La majorité des répondants déclarent ressentir une pression temporelle lors de leurs déplacements.
 
-Sur 25 répondants, 22 d'entre eux sont en heure de pointe :
-- 16 déclarent ressentir une pression
+Sur 25 répondants, 20 d'entre eux sont en heure de pointe :
+- 14 déclarent ressentir une pression
 - 3 déclarent la ressentir parfois
 - 3 déclarent ne pas la ressentir
 
-Cela suggère que **88 % des répondants ressentent au moins parfois une pression temporelle**.
+Cela suggère que **85 % des répondants ressentent au moins parfois une pression temporelle**.
 
 ### Relation entre heure de pointe et pression temporelle
 
@@ -47,13 +47,20 @@ Cette observation peut être interprétée comme un effet du contexte de mobilit
 
 ## Discussion sociologique
 
-Ces résultats peuvent être interprétés à la lumière de la théorie de l’accélération sociale développée par Hartmut Rosa.
+Ces résultats peuvent être relié à la théorie de l’accélération sociale développée par le sociologue allemand Hartmut Rosa. Dans son ouvrage **Accélération. Une critique sociale du temps** (2005), Rosa analyse la transformation du rapport au temps dans les sociétés contemporaines.
 
-Selon H.Rosa, les sociétés contemporaines sont caractérisées par une accélération des rythmes de vie et une intensification du rapport au temps.
+Selon Rosa, la modernité se caractérise par une intensification des rythmes de vie et une accélération des activités sociales. Les individus cherchent à accomplir un nombre croissant d’actions dans un laps de temps toujours plus réduit.
 
-Dans ce contexte, les moments d’attente deviennent des moments que les individus cherchent à optimiser ou à remplir.
+Dans ce contexte, les situations de déplacement pendulaire, et notamment ceux en transports en commun, constituent des moments particulièrement révélateurs de cette transformation du rapport au temps. Même si l'infrastructure est conçue pour se déplacer rapidement, l'expérience subjective est celle d'une pression constante. En effet, les heures de pointe apparaissent comme des moments où les contraintes temporelles se concentrent, une grande quantité d’individus doit synchroniser ses déplacements dans un espace et un temps limités.
 
-Les observations réalisées dans le RER D montrent notamment l’usage quasi systématique du smartphone durant l’attente, ce qui peut être interprété comme une stratégie visant à éviter les "temps morts".
+Cette densification temporelle contribue à transformer l’expérience subjective du déplacement. Le temps de transport n’est plus perçu comme un moment de transition ou de pause, mais comme un temps contraint qu’il convient d’optimiser ou d’occuper. L’usage quasi systématique du smartphone observé dans les situations d’attente peut ainsi être interprété comme une stratégie visant à éviter les « temps morts ».
+
+Plus largement, Rosa souligne que l’accélération sociale peut produire une forme d’aliénation, dans laquelle les individus ont le sentiment de manquer constamment de temps malgré l’augmentation des capacités techniques de mobilité.
+
+Les pratiques d’attente observées dans le RER D apparaissent ainsi comme des manifestations concrètes de cette dynamique d’accélération sociale.
+
+
+
 
 ## Limites de l’étude
 
