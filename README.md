@@ -74,4 +74,4 @@ Approche mixte combinant :
 
 L’analyse complète du projet est disponible ici :
 
-➡️ **[ANALYSE.md](ANALYSE.md)**
+**[ANALYSE.md](ANALYSE.md)**
